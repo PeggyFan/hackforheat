@@ -173,7 +173,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">IPython.core.display</span> <span class="kn">as</span> <span class="nn">di</span>
@@ -182,7 +182,7 @@ div#notebook {
 <span class="n">di</span><span class="o">.</span><span class="n">display_html</span><span class="p">(</span><span class="s">&#39;&lt;script&gt;jQuery(function() {if (jQuery(&quot;body.notebook_app&quot;).length == 0) { jQuery(&quot;.input_area&quot;).toggle(); jQuery(&quot;.prompt&quot;).toggle();}});&lt;/script&gt;&#39;</span><span class="p">,</span> <span class="n">raw</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 
 <span class="c"># This line will add a button to toggle visibility of code blocks, for use with the HTML export version</span>
-<span class="n">di</span><span class="o">.</span><span class="n">display_html</span><span class="p">(</span><span class="s">&#39;&#39;&#39;&lt;button onclick=&quot;jQuery(&#39;.input_area&#39;).toggle(); jQuery(&#39;.prompt&#39;).toggle();&quot;&gt;Toggle code&lt;/button&gt;&#39;&#39;&#39;</span><span class="p">,</span> <span class="n">raw</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="c">#di.display_html(&#39;&#39;&#39;&lt;button onclick=&quot;jQuery(&#39;.input_area&#39;).toggle(); jQuery(&#39;.prompt&#39;).toggle();&quot;&gt;Toggle code&lt;/button&gt;&#39;&#39;&#39;, raw=True)</span>
 </pre></div>
 
 </div>
@@ -197,14 +197,6 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea ">
 <script>jQuery(function() {if (jQuery("body.notebook_app").length == 0) { jQuery(".input_area").toggle(); jQuery(".prompt").toggle();}});</script>
-</div>
-
-</div>
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-<button onclick="jQuery('.input_area').toggle(); jQuery('.prompt').toggle();">Toggle code</button>
 </div>
 
 </div>
